@@ -21,3 +21,4 @@ model/v2
 output
 short_reads_pipeline/bin
 test/*.gz
+.git/objects/

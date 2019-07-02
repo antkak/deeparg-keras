@@ -9,7 +9,7 @@ evalue = 1e-10
 minCoverage = 0.8
 numAlignmentsPerEntry = 1000
 pipeline = 'reads'
-version = 'v2'
+version = 'v3'
 opts, args = getopt.getopt(sys.argv[1:], "hi:o:", ["predict", "align", "genes", "reads",
                                                    "v1", 'type=',  "input=", "output=", "iden=", "prob=", "evalue=", "coverage=", "nk="])
 options = {}
